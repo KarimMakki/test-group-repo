@@ -13,7 +13,7 @@ class TestCalculateDiscount(unittest.TestCase):
     """
 
     def test_valid_discount(self):
-        """Test with valid discount percentage."""
+        """Test with a valid discount percentage."""
         self.assertEqual(calculate_discount(100, 20), 80.0)
 
     def test_no_discount(self):

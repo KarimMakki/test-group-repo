@@ -10,7 +10,7 @@ def calculate_discount(original_price: float, discount_percentage: float) -> flo
 
     Args:
         original_price (float): The original price of the item. Must be a non-negative number.
-        discount_percentage (float): The discount percentage to apply. Must be between 0 and 100.
+        discount_percentage (float): The discount percentage we want to apply. Must be between 0 and 100.
 
     Returns:
         float: The price after applying the discount.
